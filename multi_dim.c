@@ -21,5 +21,8 @@ int main()
     // These three are the same.
     // B[i][j] == *(*(B + i) + j) == *(B[i] + j)
 
+    // B returns a one dimensional array of three integers
+    // *B returns a pointer to an integer
+
     return 0;
 }

@@ -14,7 +14,7 @@ int main()
         printf("First way of getting address: %d\n", &A[i]);
         printf("Second way of getting address: %d\n", A + i);
         printf("First way of getting value: %d\n", A[i]);
-        printf("Second way of getting address: %d\n", *(A + i));
+        printf("Second way of getting value: %d\n", *(A + i));
     }
     return 0;
 }
